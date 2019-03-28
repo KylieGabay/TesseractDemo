@@ -26,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        OcrManager manager = new OcrManager();
+        manager.initAPI();
+
+
+        //baseAPI.setImage(bitmap);
+        //return baseAPI.getUTF8Text();
     }
 
     @Override
